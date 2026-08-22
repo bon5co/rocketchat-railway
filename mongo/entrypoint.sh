@@ -51,5 +51,5 @@ fi
 ) &
 
 exec gosu mongodb mongod --dbpath "$DATA_DIR" --replSet "$RS_NAME" \
-  --keyFile "$KEYFILE" --bind_ip_all --port 27017 \
+  --keyFile "$KEYFILE" --ipv6 --bind_ip ::,0.0.0.0 --port 27017 \
   --setParameter diagnosticDataCollectionEnabled=false
