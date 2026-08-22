@@ -7,3 +7,8 @@ ENV DEPLOY_METHOD=docker \
     NODE_OPTIONS=--max-old-space-size=768 \
     Accounts_RegistrationForm="Secret URL" \
     OVERWRITE_SETTING_Show_Setup_Wizard=completed
+# Seeded from here rather than from a template variable: templateGenerate drops
+# literal variable defaults, and a blank required variable is a dead listing.
+# ADMIN_PASS is the only admin credential the deployer supplies.
+ENV ADMIN_USERNAME=admin \
+    ADMIN_EMAIL=admin@example.com

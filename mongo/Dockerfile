@@ -9,3 +9,4 @@ RUN chmod +x /usr/local/bin/rc-mongo-entrypoint.sh
 ENV MONGO_REPLICA_SET=rs0
 EXPOSE 27017
 ENTRYPOINT ["/usr/local/bin/rc-mongo-entrypoint.sh"]
+ENV MONGO_INITDB_ROOT_USERNAME=mongo
