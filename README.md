@@ -1,5 +1,9 @@
 # rocketchat-railway
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rocketchat-or-just-updated-slack-alterna?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+**Deploy on Railway:** [Rocket.Chat template](https://railway.com/deploy/rocketchat-or-just-updated-slack-alterna?referralCode=Z1xivh&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 Wrapper images behind the Railway Rocket.Chat template.
 
 - `rocketchat/` — Rocket.Chat 7.10.0 pinned by digest, literal settings baked in
